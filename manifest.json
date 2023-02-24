@@ -1,0 +1,13 @@
+{
+  "name": "LinkedIn Connector",
+  "version": "0.0.1",
+  "manifest_version": 3,
+
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
